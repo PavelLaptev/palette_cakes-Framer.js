@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=640,initial-scale=0.5,user-scalable=no">
+
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+		<link href='https://fonts.googleapis.com/css?family=Nunito:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+			document.ontouchstart = function(e){ 
+			    e.preventDefault(); 
+			}
+		</script>
+
+		<style type="text/css" media="screen">
+		
+
+		* {
+			margin:0;
+			padding:0;
+			border:none;
+			-webkit-user-select:none;
+		}
+
+		html {
+			cursor: url('images/cursor.png') 32 32, auto;
+			cursor: -webkit-image-set(
+				url('images/cursor.png') 1x,
+				url('images/cursor@2x.png') 2x
+			) 32 32, auto;
+		}
+
+		html:active {
+			cursor: url('images/cursor-active.png') 32 32, auto;
+			cursor: -webkit-image-set(
+				url('images/cursor-active.png') 1x,
+				url('images/cursor-active@2x.png') 2x
+			) 32 32, auto;
+		}
+
+		a {
+			color: #bfbfbf;
+		}
+
+		</style>
+
+	</head>
+	<body>
+		<script src="framer/framer.js"></script>
+		<script src="framer/framer.modules.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
