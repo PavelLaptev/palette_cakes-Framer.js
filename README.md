@@ -4,5 +4,5 @@ Project on framer.js
 
 [Look prototype](http://dariographics.com/framer/cards/) on my site
 
-![comand](https://dl.dropboxusercontent.com/s/vlcm6u15o7r74vk/pallete_cakes?dl=0)
+![comand](https://dl.dropboxusercontent.com/s/3ipmxmsd384aw58/pallete_cakes.png?dl=0)
 
