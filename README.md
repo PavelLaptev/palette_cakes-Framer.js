@@ -1,4 +1,4 @@
-# pallete_cakes-Framer.js
+# palette_cakes-Framer.js
 
 Project on framer.js
 

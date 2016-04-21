@@ -44,7 +44,7 @@ if Utils.isMobile()
 
 ## new text layer || trigger - newText ##
 mainText = new TextLayer
-    text: "random PALLETE cakes"
+    text: "random PALETTE cakes"
     color: "white"
     textAlign: "center"
     fontSize: 80

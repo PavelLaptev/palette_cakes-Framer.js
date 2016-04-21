@@ -1,23 +1,3 @@
-
-/* SNIPPET LIST
-	clear console - ClearConsole
-	----
-	create iphone6 view SpaceGray || newIphone
-	create iphone6 view White || newIphoneWhite
-	create iphone6 view Gold || newIphoneGold
-	----
-	init text layers || initText
-	create text layer || newText ## -> init textLayer by trigger initText before use snippet
-	---
-	new layer || newLayer
-	new Circle || newCircle
-	tabbar || newTabbar
-	navigationbar with statusbar || newNavbar
-	---
-	drag || drag
-	add states || state
- */
-
 (function() {
   var F, TextLayer, animationA, animationB, colorTxt, flag, frame, hexVal, i, mainText, rgbVal, screen, spring, _i;
 
@@ -72,7 +52,7 @@
   }
 
   mainText = new TextLayer({
-    text: "random PALLETE cakes",
+    text: "random PALETTE cakes",
     color: "white",
     textAlign: "center",
     fontSize: 80,
